@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="uname" value="ria1" />
+  	<parameter name="pword" value="Ria12345" />
+  	<parameter name="moduleName" value="Logout" />
+  	<parameter name="expectedModulePageTitle" value="NAMTG" />
+  	<parameter name="negativeExpectedModulePageTitle" value="NAMTG1" />
+    <classes>
+      <class name="org.iit.healthcare.mmp.patienttests.US_011_LogOutTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
